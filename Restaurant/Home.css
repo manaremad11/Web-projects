@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: century Gothic;
+}
+
+.header{
+
+    background-color: aqua;
+    height: 5vh;
+}
+
+.Container{
+
+    height:100vh;
+    background: cover;
+    position:relative;
+    background:url('TheBackground.jpg');
+     background-size: cover; 
+}
+
+#title{
+    position:absolute;
+    width:65%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center
+}
+h2,h1{
+    
+    color: whitesmoke;
+}
+.button{
+    text-align:center
+}
+
+.btn {
+    text-align: center;
+    border-radius: 20px;
+    color: thistle;
+    width: 130px;
+    height: 30px;
+    background-color: teal;
+    transition: background-color 2s;
+    font-size:large;
+}
+
+ul{
+    float: right;
+    display:flex
+    list style none;
+    margin-top: 12px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:teal;
+    padding: 3px 15px;
+    border: teal 1px solid;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#demo
+{
+    position:absolute;
+    font-size:xx-large;
+    font-style:initial;
+    padding: 30px;
+    margin: 40px;
+}
+    #h
+    {
+        text-align: center;
+    }

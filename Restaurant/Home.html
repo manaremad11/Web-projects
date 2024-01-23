@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant Home page</title>
+        <link rel="stylesheet" href="Home.css"/>
+        <script> 
+            function loadDoc() {
+              var xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                 document.getElementById("demo").innerHTML = this.responseText;
+                }
+              };
+              xhttp.open("GET","Learn.html", true);
+              xhttp.send();
+            }
+            </script>
+
+    </head>
+ 
+    <body>
+        <div class ="Container">
+            <div class="header">
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>    
+            <div class="content"> 
+                <div id="title">
+                    <h1>French Restaurant</h1>
+                    <h2>We're the best restaurant in town</h2>
+                       <br>
+                       <br>
+                    <div  class="button" >
+                        <button class="btn" onclick="loadDoc()">Learn More</button>
+                        <a href="Booking.html"><button class="btn">Book A Visit</button></a>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+        <div id ="demo"></div>
+    </body>
+</html>
