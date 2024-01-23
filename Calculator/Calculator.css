@@ -1,0 +1,60 @@
+
+body
+{
+    background-color:white;
+}
+.container
+{
+    width: 300px;
+    height: 450px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 8px whitesmoke, -4px -4px -8px whitesmoke;
+    
+}
+.Calculator_box
+{
+    width: 300px;
+    margin: 10px auto;
+    border: 2px solid rgb(159, 43, 226);
+}
+#display
+{
+    width: 240px;
+    color: white;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-weight: 600;
+    margin: 10px;
+    background: blueviolet;
+}
+.button
+{
+    margin: 10px 0 0 10px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgba(137, 43, 226, 0.829);
+    display: inline-block;
+    color: white;
+}
+
+.clearButton
+{
+    width: 280px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    margin: 10px;
+    background: blueviolet;
+    box-shadow: inset 30px 30px 70px grey, -30px -30px -70px grey;
+    
+}
